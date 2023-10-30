@@ -9,7 +9,7 @@ module.exports = config = {
    * @description max number of requests
    * @default 100
    */
-  rateLimitMax: 100,
+  rateLimitMax: 1000,
 
   /** @type {number}
    * @description time between requests
